@@ -1,0 +1,46 @@
+.slider-container {
+    width: 570px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.slider {
+    width: 500%;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+}
+img {
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.slide {
+    width: 20%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+.control-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.control__text {
+    width: 50%;
+    overflow: hidden;
+    display: flex;
+}
+.control__labels {
+    display: flex;
+    justify-content: space-between;
+}
+input {
+    display: none;
+}
+label {
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+
+}
