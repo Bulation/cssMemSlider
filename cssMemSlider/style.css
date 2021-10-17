@@ -6,7 +6,7 @@ body {
 }
 .slider-container {
     width: calc(100% - 40px);
-    max-width: 570px;
+    max-width: 57rem;
     overflow: hidden;
     margin: 0 auto;
 }
@@ -80,7 +80,7 @@ label:hover {
     border-color: black;
 }
 label:active {
-    background-color: #2F4F4F;
+    background-color: green;
 }
 #dot1:checked ~ .slider-container .slider {
     margin-left: 0;
