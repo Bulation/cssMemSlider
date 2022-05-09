@@ -60,26 +60,25 @@ img:first-child {
 input {
     display: none;
 }
+.span {
+  display: block;
+  width: 1.5rem;
+  margin: 0 1rem;
+  height: 1.5rem;
+  border: 2px solid #1560BD;
+  border-radius: 50%;
+  background-color: #FDEAA8;
+}
 label {
-    display: flex;
-    width: 1.5rem;
-    cursor: pointer;
-    margin: 0 1rem;
-    height: 1.5rem;
-    border: 2px solid #1560BD;
-    border-radius: 50%;
-    background-color: #FDEAA8;
+  width: 4rem;
+  height: 2.5rem;
+  display: flex;
+  cursor: pointer;
 }
-label:before {
-    content: '';
-    width: 3.5rem;
-    height: 3.5rem;
-    margin: -1rem;
-}
-label:hover {
+label:hover span {
     border-color: black;
 }
-label:active {
+label:active span {
     background-color: green;
 }
 #dot1:checked ~ .slider-container .slider {
@@ -112,39 +111,39 @@ label:active {
 #dot5:checked ~ .slider-container .control-container .control__text-container .control__text {
     margin-left: -400%;
 }
-#dot1:checked ~ .slider-container .control-container .control__labels label:first-child {
+#dot1:checked ~ .slider-container .control-container .control__labels label:first-child span {
     background-color: #1560BD;
 }
-#dot1:checked ~ .slider-container .control-container .control__labels label:first-child:hover {
+#dot1:checked ~ .slider-container .control-container .control__labels label:first-child:hover span {
     background-color: green;
     border: none;
 }
-#dot2:checked ~ .slider-container .control-container .control__labels label:nth-child(2) {
+#dot2:checked ~ .slider-container .control-container .control__labels label:nth-child(2) span {
     background-color: #1560BD;
 }
-#dot2:checked ~ .slider-container .control-container .control__labels label:nth-child(2):hover {
+#dot2:checked ~ .slider-container .control-container .control__labels label:nth-child(2):hover span {
     background-color: green;
     border: none;
 }
 
-#dot3:checked ~ .slider-container .control-container .control__labels label:nth-child(3) {
+#dot3:checked ~ .slider-container .control-container .control__labels label:nth-child(3) span {
     background-color: #1560BD;
 }
-#dot3:checked ~ .slider-container .control-container .control__labels label:nth-child(3):hover {
+#dot3:checked ~ .slider-container .control-container .control__labels label:nth-child(3):hover span {
     background-color: green;
     border: none;
 }
-#dot4:checked ~ .slider-container .control-container .control__labels label:nth-child(4) {
+#dot4:checked ~ .slider-container .control-container .control__labels label:nth-child(4) span {
     background-color: #1560BD;
 }
-#dot4:checked ~ .slider-container .control-container .control__labels label:nth-child(4):hover {
+#dot4:checked ~ .slider-container .control-container .control__labels label:nth-child(4):hover span {
     background-color: green;
     border: none;
 }
-#dot5:checked ~ .slider-container .control-container .control__labels label:last-child {
+#dot5:checked ~ .slider-container .control-container .control__labels label:last-child span {
     background-color: #1560BD;
 }
-#dot5:checked ~ .slider-container .control-container .control__labels label:nth-child(5):hover {
+#dot5:checked ~ .slider-container .control-container .control__labels label:nth-child(5):hover span {
     background-color: green;
     border: none;
 }
