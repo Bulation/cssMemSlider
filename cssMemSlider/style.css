@@ -5,7 +5,7 @@ body {
     background-color: #FDEAA8;
 }
 .slider-container {
-    width: calc(100% - 40px);
+    width: calc(100% - 4rem);
     max-width: 57rem;
     overflow: hidden;
     margin: 0 auto;
@@ -24,7 +24,7 @@ img {
     border-radius: 2rem;
 }
 img:first-child {
-    height: 604px;
+    height: 60.4rem;
 }
 .slide {
     background-color: #45433B;
@@ -58,7 +58,7 @@ img:first-child {
     display: flex;
 }
 input {
-    display: none;
+  transform: scale(0);
 }
 .span {
   display: block;
